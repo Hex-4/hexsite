@@ -18,7 +18,7 @@ const config = {
 
           neutral: "#212656",
 
-          "base-100": "#0B0D1E",
+          base: "#0B0D1E",
 
           info: "#00baff",
 
@@ -32,7 +32,27 @@ const config = {
     ],
   },
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#ffb300",
+
+        secondary: "#008fff",
+
+        accent: "#3300ff",
+
+        neutral: "#212656",
+
+        base: "#0B0D1E",
+
+        info: "#00baff",
+
+        success: "#5ed000",
+
+        warning: "#ff4e00",
+
+        error: "#cc002f",
+      },
+    },
   },
 
   plugins: [forms, typography, daisyui],
